@@ -1,16 +1,56 @@
+@keyframes color {
+    0%   { background: #33CCCC; }
+    20%  { background: #33CC36; }
+    40%  { background: #B8CC33; }
+    60%  { background: #FCCA00; }
+    80%  { background: #33CC36; }
+    100% { background: #33CCCC; }
+  }
+  input{
+      width: 40%;
+  }
+  body {
+    background: #33CCCC; /* Fallback */
+    animation: color 9s infinite linear;
+    padding: 2em;
+  }
 
-
-.display {
-    display: inline-block;
-    max-width: 19%;
-}
-
-.display img {
-    max-width: 100%;
-    max-height: 250px;
-}
-
-.display h4{
+.center {
     text-align: center;
 }
 
+.strokeTitle {
+
+    font-size: 61px;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: #0066ff;
+    -webkit-text-fill-color: #ffffff;
+    letter-spacing: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.strokeSubtitle{
+    font-size: 34px;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: #0066ff;
+    -webkit-text-fill-color: #ffffff;
+    letter-spacing: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top:-2.5rem
+}
+.strokeSubsubtitle{
+    font-size: 24px;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: #0000ff;
+    -webkit-text-fill-color: #ffffff;
+    letter-spacing: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.form{
+    text-align: center;
+}
