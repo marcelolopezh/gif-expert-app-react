@@ -17,19 +17,20 @@ export const GifGrid = ({ category }) => {
     color: theme.palette.text.secondary,
   }));
   return (
-    <Box md={{ width: 800, minHeight: 800 }}>
+    <Box>
       {loading ? "Loading ..." : null}
       <h2 className="center strokeSubsubtitle">{category}</h2>
-      <Masonry columns={4} spacing={2}>
+      <Masonry
+        columns={3}
+        spacing={2}
+      >
         {data.map((img, index) => {
           return (
-            <div key={img.id}>
-              <Item className="display">
+              <Item key={index}>
                 <img
                   src={`${img.url}?w=162&auto=format`}
                   srcSet={`${img.url}?w=162&auto=format&dpr=2 2x`}
                   alt={img.title}
-                  loading="lazy"
                   style={{
                     borderBottomLeftRadius: 4,
                     borderBottomRightRadius: 4,
@@ -38,7 +39,6 @@ export const GifGrid = ({ category }) => {
                   }}
                 />
               </Item>
-            </div>
           );
         })}
       </Masonry>
