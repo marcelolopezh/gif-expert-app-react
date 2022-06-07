@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/marcelolopezh/gif-expert-app-react/static/css/main.ca6ba11d.css",
+    "main.js": "/marcelolopezh/gif-expert-app-react/static/js/main.8d1728af.js",
+    "index.html": "/marcelolopezh/gif-expert-app-react/index.html",
+    "main.ca6ba11d.css.map": "/marcelolopezh/gif-expert-app-react/static/css/main.ca6ba11d.css.map",
+    "main.8d1728af.js.map": "/marcelolopezh/gif-expert-app-react/static/js/main.8d1728af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca6ba11d.css",
+    "static/js/main.8d1728af.js"
+  ]
+}
